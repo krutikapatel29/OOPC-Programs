@@ -14,6 +14,7 @@ class shape{
 	float height,base,radius,len1,len2,len3;
 	
 	public:
+              //In function overloading one name can be use for multiple function
 		float area(float radius)
 		{
 			float AreaC = pi*pow(radius,2);
